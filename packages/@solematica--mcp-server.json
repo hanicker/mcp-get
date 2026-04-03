@@ -1,0 +1,15 @@
+{
+  "name": "@solematica/mcp-server",
+  "description": "Solar estimates, provider comparison, energy prices and blog for Italy. 6 MCP tools for the Italian solar energy market.",
+  "vendor": "Solematica — Soloweb SRL (https://www.solematica.it)",
+  "sourceUrl": "https://github.com/n3m1/solematica-mcp",
+  "homepage": "https://www.solematica.it/sviluppatori",
+  "license": "MIT",
+  "runtime": "node",
+  "environmentVariables": {
+    "SOLEMATICA_API_KEY": {
+      "description": "API key for stima_solare tool (optional, other tools are free)",
+      "required": false
+    }
+  }
+}
